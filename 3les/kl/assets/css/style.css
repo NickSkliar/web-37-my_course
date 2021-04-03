@@ -1,0 +1,8 @@
+body{
+width: auto;
+}
+p {
+    color:red;
+    background-color: aquamarine;
+    text-align: justify;
+}

@@ -1,0 +1,24 @@
+body{
+    background:linear-gradient(125deg, rgb(54,81,217), rgb(207,56,148));
+    margin: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+    min-height: 100vh;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    color:aliceblue;
+    text-shadow:cornsilk 0 0 10px;
+}
+.t1{
+    color: cornsilk;
+    letter-spacing:2px
+}
+.plain{
+    width: 100%;
+    margin: 0;
+}
+p{
+    text-align: justify;
+}
