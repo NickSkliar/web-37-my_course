@@ -1,24 +1,51 @@
-body{
-    background:linear-gradient(125deg, rgb(54,81,217), rgb(207,56,148));
+body {
+    background: linear-gradient(125deg, rgb(54, 81, 217), rgb(207, 56, 148));
     margin: 0;
     margin-left: 2%;
     margin-right: 2%;
     min-height: 100vh;
 }
-h1{
+
+h1 {
     text-align: center;
     text-transform: uppercase;
-    color:aliceblue;
-    text-shadow:cornsilk 0 0 10px;
+    color: aliceblue;
+    text-shadow: cornsilk 0 0 10px;
 }
-.t1{
+
+.t1 {
     color: cornsilk;
-    letter-spacing:2px
+    letter-spacing: 2px;
+    font-size: 22px;
 }
-.plain{
+
+.plain {
     width: 100%;
     margin: 0;
 }
-p{
+
+#but {
+    color: cornsilk;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 12px;
+}
+#but:hover{
+    color: coral;
+    background-color:darkviolet;
+}
+
+.but1 {
+    background-color: darkcyan;
+}
+
+.but2 {
+    background-color: crimson;
+    margin-left: 5%;
+}
+
+p {
     text-align: justify;
+    color: cornsilk;
+    font-size: 20px;
 }
