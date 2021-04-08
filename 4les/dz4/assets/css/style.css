@@ -1,43 +1,35 @@
 /*главные стили*/
 * {
     box-sizing: border-box;
-    /*    overflow: auto;*/
+/*    overflow: auto;*/
 }
 
-body {
+body,html {
     margin: 0px;
+    padding: 0;
 }
 
 
 /*стили шапки*/
-#mainphoto {
-    padding: 0;
-    margin: 0;
-    width: 100vw;
+header {
+    background-image: url(../img/header.jpg);
+    width: 100%;
     height: 220px;
-    object-fit: cover;
-    object-position: center;
-    position: relative;
     min-width: 400px;
-}
-
-#containermenu {
-    position: absolute;
-    right: 15vw;
-    left: 15vw;
-    top: 0px;
-    color: white;
-    min-width: 400px;
-    max-width: 960px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .menuu {
+    margin-top: 0;
+    padding-top: 15px;
     padding-left: 0;
 }
 
 ul.menuu li {
     display: inline;
-    margin: 0px 20px;
+    margin: 0px 15px;
 }
 
 .menuu li:first-child {
@@ -49,7 +41,7 @@ h1 {
     margin: 0;
 }
 
-#menutext {
+.menutext {
     color: white;
     text-align: justify;
 }
@@ -58,23 +50,18 @@ h1 {
 /*стили основной инфы*/
 .container {
     padding: 0;
-    width: 70vw;
     margin: 0 auto;
+    width: 70vw;
     min-width: 400px;
     max-width: 960px;
 }
 
-.container p {
+.containermain p {
     text-align: justify;
     color: black;
 }
 
-#containermain {
-    margin: 1%;
-    padding: 0;
-}
-
-#containermain img {
+.containermain img {
     width: 100%;
     height: 200px;
     object-fit: cover;
