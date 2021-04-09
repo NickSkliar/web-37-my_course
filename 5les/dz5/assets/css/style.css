@@ -142,12 +142,3 @@ body {
     }
 }
 
-@media screen and (min-device-width: 701px) {
-    html {
-        font-size: 10px;
-    }
-
-    .container {
-        width: 60vw;
-    }
-}
