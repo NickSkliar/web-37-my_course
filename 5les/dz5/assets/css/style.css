@@ -9,8 +9,6 @@ html {
 body {
     margin: 0;
     background-image: radial-gradient(circle, #363738, #2d3336, #233032, #192d2c, #132922);
-    min-height: 640px;
-    max-height: 1080px;
 }
 
 .container {
@@ -23,8 +21,6 @@ body {
     margin: 0 auto;
     min-width: 500px;
     max-width: 900px;
-    min-height: 640px;
-    max-height: 1080px;
     padding: 1.5rem;
     border-left: 4rem solid #d01818;
     border-right: 4rem solid #0c13b1;
@@ -134,4 +130,24 @@ body {
 @font-face {
     font-family: 'DM Mono';
     src: url(../fonts/DMMono-Italic.ttf);
+}
+
+@media screen and (max-device-width: 700px) {
+    html {
+        font-size: 20px;
+    }
+
+    .container {
+        width: 90vw;
+    }
+}
+
+@media screen and (min-device-width: 701px) {
+    html {
+        font-size: 10px;
+    }
+
+    .container {
+        width: 60vw;
+    }
 }
