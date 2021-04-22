@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+      
+	<div>1. DIV</div>
+	<div class="cat">2. DIV with class CAT;</div>
+	<div id="tiger" class="dog">3. DIV with id TIGER and class DOG;</div>
+	<div class="cat dog bird">4. DIV with class CAT, DOG, TIGER;</div>
+	
+	<p class="dog bird">5. P with class DOG, BIRD;</p>
+	<p>6. P</p>
+	<p class="cat dog" id="lion">7. P with class CAT, DOG;</p>
+	<p class="bird horse">8. P with class BIRD, HORSE;</p>
+
+	<article class="horse">9. ARTICLE with class HORSE;</article>
+	<p class="bird dog">10. P with class BIRD, DOG.</p>
+	
+	<hr>
+	
+	<div class="dog">
+		1. DIV with class DOG
+		<div class="bird">
+			2. DIV with class BIRD
+			<p class="cat">3. P with class CAT</p>
+			<p>4. P</p>
+		</div>
+	</div>
+	
+	<article class="dog">
+		5. ARTICLE with class DOG
+		<p class="cat">6. P with class CAT</p>
+		<p class="dog">7. P</p>
+	</article>
+   
+  </body>
+</html>

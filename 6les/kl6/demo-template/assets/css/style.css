@@ -1,0 +1,26 @@
+
+/* Template Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+div, p, article{
+    padding: 10px;
+    margin: 20px;
+    border: 3px dashed gray; 
+    font-family: 'Courier New';
+    background: rgb(240, 250, 240);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+hr{
+    border-top: 5px dashed orange;
+}
+
+/* End Template Styles */

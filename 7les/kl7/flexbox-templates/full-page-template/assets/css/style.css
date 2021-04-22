@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+html {
+    font-size: 12px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    width: clamp(460px, 70vw, 960px);
+    margin: 0 auto;
+    background-color: cadetblue;
+ }
+
+header, main, footer {
+    background: yellow; 
+    padding: 1rem;
+    margin: 1rem;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+header > a:first-child{
+    font-size: 50px;
+}
+
+.component{
+    background: white;
+    border:1px dashed grey;
+    text-align: justify;
+    min-height: 100%;
+}
+.cell{
+    width: calc(100%/3);
+    border: 1px dashed red;
+    background: cyan;
+    padding: 0 10px;
+}
+.components{
+    display: flex;
+    flex-wrap: wrap;
+}

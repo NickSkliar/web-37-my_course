@@ -1,0 +1,69 @@
+/* Template Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gill Sans', sans-serif;
+    margin: 0;
+}
+
+/* End Template Styles */
+
+div:first-child {
+    width: 400px;
+    border: 3px solid green;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+img:first-child {
+    max-width: 100%;
+}
+
+img:not(:first-child) {
+    width: 24%;
+    border: 2px solid green;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+h1 + div {
+    font-size: 14px;
+    color: gray;
+}
+
+span:nth-child(1) {
+    color: grey;
+    text-decoration: line-through;
+    display: block;
+    margin: 10px 0px;
+}
+
+span:nth-child(even) {
+    color: red;
+    font-size: 20px;
+}
+
+span:last-child {
+    margin-left: 20px;
+    background: orange;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 15px;
+    transform: rotate(-5deg);
+    display: inline-block;
+}
+
+button {
+    background: green;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
