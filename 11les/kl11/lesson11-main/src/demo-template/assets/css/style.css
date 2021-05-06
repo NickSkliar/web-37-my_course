@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+ }
+ 
+ html {
+     font-size: 12px;
+ }
+ 
+ body {
+     margin: 0;
+     font-family: 'Courier New', Courier, monospace;
+     font-weight: 600;
+ }
+ 
+ main {
+     background: skyblue;
+     padding: 1.5rem;
+ }
+ 
+ main > div { 
+     text-align: center; 
+     font-size: 4rem; 
+     padding: 1rem;
+     color: white;
+ }
+ 
+ .a {
+     background: red;
+ }
+ 
+ .b {
+     background: green;
+ }
+ 
+ .c {
+     background: blue;
+ }
+ 
+ .d {
+     background: chocolate;
+ }
+ 
+ .e {
+     background: orange;
+ }
+ 
+ .f {
+     background: indigo;
+ }
+ 
+ .g {
+     background: maroon;
+ }
+ 
+ .h {
+     background-color:sienna ;
+ }
+ 
+ .i {
+     background: forestgreen;
+ }
+ 
+ .j {
+     background: rgb(133, 7, 218);
+ }
+
+/* Конец Служебной Части */
+
+
+main{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-areas:   "a a a b"
+                           "c d e b"
+                           "f . h g"
+                           "f . h g"
+                           "f . i j";
+}
+/*
+.b{
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+*/
+.a{
+    grid-area: a;
+}
+.b{
+    grid-area: b;
+}
+.c{
+    grid-area: c;
+}
+.d{
+    grid-area: d;
+}
+.f{
+    grid-area: f;
+}
+.e{
+    grid-area: e;
+}
+.g{
+    grid-area: g;
+}
+.h{
+    grid-area: h;
+}
+.i{
+    grid-area: i;
+}
+.j{
+    grid-area: j;
+}
