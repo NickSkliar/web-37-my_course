@@ -1,0 +1,39 @@
+
+
+    #box {
+        width: 22vw;
+        height: 22vw;
+        overflow: clip;
+    }
+    
+    @keyframes demo{
+
+        0%{
+            transform: rotate(0deg);
+        }
+        20%
+        {
+            transform: rotate(200deg);
+        }
+        40%
+        {
+            transform: rotate(200deg);
+            background-color: burlywood !important;
+        }
+
+        100%{
+            transform: rotate(360deg);
+        }
+    }
+
+    #box:hover{
+        animation-name: demo;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: ease-in-out;
+
+    }

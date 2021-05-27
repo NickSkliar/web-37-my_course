@@ -1,0 +1,89 @@
+#position-a{
+    width: 250px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+}	
+
+#position-b{
+    width: 250px;
+    height: 50px;
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+    left: 1000px;
+}
+
+#heli {
+    width: 200px;
+    position: absolute;
+    bottom: 40px;
+    left: 115px;
+}
+
+
+@keyframes fly{
+    0%{
+        bottom: 40px;
+        left: 115px;
+        transform: rotate(0deg);
+    }
+    5%{
+        bottom: 40px;
+        left: 115px;
+        transform: rotate(0deg);
+    }
+    10%{
+        bottom: 300px;
+        left: 115px;
+    }
+    12.5%{
+        transform: rotate(15deg);
+    }
+    36%{
+        transform: rotate(15deg);
+    }
+    40%{
+        bottom: 300px;
+        left: 950px;
+    }
+    45%{
+        bottom: 40px;
+        left: 1015px;
+    }
+    55%{
+        bottom: 40px;
+        left: 1015px;
+        transform: rotateY(180deg);
+    }
+    65%{
+        bottom: 300px;
+        left: 950px;
+        transform: rotateY(180deg);
+    }
+    90%{
+        bottom: 300px;
+        left: 115px;
+        transform: rotateY(180deg);
+    }
+    95%{
+        bottom: 40px;
+        left: 115px;
+        transform: rotateY(180deg);
+    }
+    100%{
+        bottom: 40px;
+        left: 115px;
+        transform: rotateY(0);
+    }
+}
+
+#heli{
+    animation-name: fly;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello RegExp</title>
+
+    <link rel="shortcut icon" href="./assets/images/favicon.png">
+    
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+   
+    <div class="container mt-3">
+		
+		<h1>Hello, RegExp!</h1>
+        
+
+        <!-- Name Input -->
+        <div class="form-group mt-4">
+            <label for="user_name">Ваше имя *</label>
+            <input 
+                type="text"
+                class="form-control" 
+                id="user_name" 
+                placeholder="Например: Иван"
+            />
+            <small class="form-text text-muted">
+                * Это поле обязательно к заполнению.
+            </small>
+            <small class="form-text text-success valid-label">
+                Поле заполнено верно.
+            </small>
+        </div>
+        
+
+        <!-- Tax Code Input -->
+        <div class="form-group mt-4">
+            <label for="user_inn">Ваш ИНН *</label>
+            <input 
+                type="text" 
+                class="form-control" 
+                id="user_inn" 
+                placeholder="Например: 1234567890"
+            />
+            <small class="form-text text-muted">
+                * Это поле обязательно к заполнению.
+            </small>
+            <small class="form-text text-success valid-label">
+                Поле заполнено верно.
+            </small>
+        </div>  
+        
+
+        <!-- Passport Input -->
+        <div class="form-group mt-4 mb-3">
+            <label for="user_pasport">Номер вашего паспорта *</label>
+            <input 
+                type="text" 
+                class="form-control" 
+                id="user_pasport" 
+                placeholder="Например: АА123456 или 123456789"
+            />
+            <small class="form-text text-muted">
+                * Это поле обязательно к заполнению.
+            </small>
+            <small class="form-text text-success valid-label">
+                Поле заполнено верно.
+            </small>
+        </div>
+        
+        <button type="submit" class="btn btn-success">Отправить</button>
+			
+	</div>	
+
+</body>
+</html>

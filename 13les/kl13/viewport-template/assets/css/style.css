@@ -1,0 +1,32 @@
+    
+    img {
+        width: 100%;
+    }
+
+    .preview {
+        width: 200px;
+        
+        text-align: justify;
+        padding: 10px;
+        margin: 50px auto;
+        border: 2px solid orange;
+        box-shadow: 0px 0px 15px gray;
+        border-radius: 20px;
+        font-size: 8pt;
+        font-family: sans-serif;
+    }
+
+    p{
+        text-align: justify;
+    }
+
+    .container{
+        width:100%;
+        margin: 0 auto;
+    }
+    
+    @media(min-width:768px){
+        .container{
+            width: 70%;
+        }
+    }
