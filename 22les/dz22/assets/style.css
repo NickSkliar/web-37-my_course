@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    width: 70vw;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+div p{
+    display: inline;
+}
+div{
+    margin: 10px;
+}
+button{
+    margin-left: 10px;
+    width: 150px;
+}
+
