@@ -1,0 +1,38 @@
+
+    @font-face {
+        font-family: 'JetBrains Mono';
+        src: url('../fonts/JetBrainsMono-Regular.woff2');
+    }
+
+    body {
+        font-family: 'JetBrains Mono' !important;
+    }
+
+    .control-panel{
+        font-size: 16px;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+
+    .control-panel input {
+        margin: auto 4px;
+    }
+
+    /****************************************/
+
+    html {
+        font-size: 12px;
+    }
+
+    h1 + p {
+        font-style: italic;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    p {
+        font-size: 1.4rem;
+    }
+

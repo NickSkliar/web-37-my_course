@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+        </style>
+    <script src="JS.js"></script>
+</head>
+<body>
+    <p>треугольник</p>
+    <p>стороны</p>
+    <p>A <input id = "side_A"> </p>
+	<p>B <input id = "side_B"> </p>
+	<p>C <input id = "side_C"> </p>
+    <p> 
+    <input  value="Add" onclick="m_add()" type="button">
+    <input  value="Random" onclick="m_rand()" type="button">
+    </p>
+    <p>
+    Виберите сторону
+    <input id = "choosen_round">
+    </p>
+    <p>
+    Изменение значений в скокото раз
+    <input id = "n_change">
+    </p>
+    <input  value="Виконати" onclick="m_change_angle()" type="button">
+    <p>
+    </p>
+    <p></p>
+    <table id="tbl">
+        <td>#</td>
+        <td>средняя линия</td>
+        <td>угол_а</td>
+		<td>угол_б</td>
+		<td>угол_с</td>
+        <td>угол_а(знач)</td>
+		<td>угол_б(знач)</td>
+		<td>угол_с(знач)</td>
+     </table>
+</body>
+</html>

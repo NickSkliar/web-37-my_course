@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<title>Депозитный калькулятор</title>
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="./assets/css/bootstrap.css">
+
+    <!-- FA5 CSS -->
+	<link rel="stylesheet" href="./assets/fa/css/all.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="./assets/css/style.css">
+
+	<script defer src="./assets/js/main.js"></script>	
+  </head>
+  <body>
+
+	<div class="container mt-5">
+		
+		<h1 class="mb-4">
+			<i class="fas fa-calculator"></i>
+			Депозитный калькулятор
+		</h1>
+
+		
+		<button class="btn btn-primary w-100">
+			<i class="fas fa-calculator"></i>
+			Открыть Депозитный Калькулятор
+		</button>
+	
+		<!-- Start Calculator Markup -->
+
+			<div class="text-right">
+				<i class="far fa-window-close fa-2x"></i>
+			</div>
+
+			<div class='row row-cols-1 row-cols-lg-4 my-4'>
+				
+				<div class="form-group">
+					<label for="sumInput">Сумма вклада (грн.)</label>
+					<input type="number" class="form-control" id="sumInput" min="1000" max="999999999" value="10000">
+				</div>
+
+				<div class="form-group">
+					<label for="termInput">Срок вклада (мес.)</label>
+					<input type="number" class="form-control" id="termInput" min="3" max="48" value="12">
+				</div> 
+
+				<div class="form-group">
+					<label for="rateInput">Ставка (% годовых)</label>
+					<input type="number" class="form-control" id="rateInput" min="1" max="100" value="12.00" step='0.01'>
+				</div>
+
+				<div class="form-group">
+					<label for="capInput">Капитализация %</label>
+					<input class='d-block mt-1' style='width:32px;height:32px;' type="checkbox" id="capInput">	
+				</div>
+
+			</div>
+			
+			<button onclick='calc()' class="btn btn-primary w-100">Рассчитать</button>
+			
+			<h3 class='my-4'>По завершению депозита вы получите: <output id="result">-</output> грн.</h3>
+			
+		<!-- /End Calculator Markup -->
+		
+		
+		<p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum minus reiciendis expedita sed est natus dolorum vitae, magnam pariatur. Sequi aliquid sapiente deserunt nemo dignissimos hic! Minus, ab quis officia illum magni quia, alias, repellat aliquam maiores necessitatibus natus. Nisi itaque culpa sit officia saepe. Unde voluptas tempore voluptate voluptates optio quam illo ipsam excepturi mollitia ipsa magnam iure itaque perferendis esse suscipit nulla dicta perspiciatis sed odit, maiores sunt! Pariatur explicabo consequuntur perferendis eum aliquid veritatis velit natus laboriosam eveniet, iste laborum? Molestias nesciunt excepturi, distinctio pariatur itaque placeat sequi odio debitis, repellat vero est minima quos necessitatibus repellendus.</p>
+
+		<p class="my-3">Quidem sint quisquam nisi culpa ipsam rerum modi adipisci ipsum, nulla officiis tempore sapiente labore iusto facilis, magni quasi voluptatum dolores explicabo aliquid ullam animi obcaecati repellendus aut porro? Soluta odio magni iusto fugiat repellendus nulla nesciunt, nam doloribus inventore explicabo architecto incidunt, nisi sapiente tempore assumenda aliquam cumque quam ex! Et perspiciatis aperiam nemo eos possimus corrupti! Vero nostrum soluta fuga dolorem saepe minus expedita ipsam iure eligendi earum fugit obcaecati error distinctio voluptatem laudantium dolores consequuntur possimus odit suscipit, labore ullam officia cum magni. Facere voluptates totam officiis nesciunt id expedita, odit temporibus corporis, placeat quaerat iure! Non.</p>
+
+		<p class="my-3">Cupiditate fugit non voluptatibus eaque laboriosam ab repellendus sunt enim consequuntur corrupti asperiores quidem, dolorum dolores laborum facere quasi minus placeat dignissimos sit similique earum ducimus debitis. Maxime fuga quasi repudiandae consequatur accusantium odit neque, veritatis dolores sed, doloribus quia. Laborum obcaecati quidem, tempore est libero sed voluptate et, nihil adipisci ad consectetur perspiciatis quisquam. Veniam, rem! Sed nihil iste quasi magni fugiat suscipit fugit distinctio provident soluta deleniti ratione illum ipsa, commodi eum sunt obcaecati, voluptatibus fuga tempora similique eius libero reprehenderit aliquam inventore. Asperiores unde aliquam voluptatum commodi alias deleniti id, eius perferendis nesciunt saepe praesentium assumenda excepturi?</p>
+
+		<p class="my-3">Repudiandae dignissimos, cupiditate eaque delectus adipisci laboriosam? Facilis corporis dicta saepe tempore inventore quasi maiores provident, vitae ducimus id nam iste quae pariatur illum. Ipsum, doloribus necessitatibus libero a iusto accusantium laborum eveniet impedit odit nobis sint et optio officiis quibusdam magni omnis suscipit? Similique repellat nostrum obcaecati nobis. Repudiandae nihil alias, aliquam voluptates assumenda totam quo in odio? Voluptates facere veniam accusamus? Earum sit obcaecati error quia eius deserunt necessitatibus quidem, laborum, totam non molestiae quas quasi vitae, architecto ratione. Eaque vel cum, laboriosam ullam quam dignissimos est asperiores harum, error dicta autem atque, nulla culpa aperiam odio corporis.</p>
+
+		<p class="my-3">Dicta tempore neque dolorum maiores eos ratione molestiae doloremque, magnam voluptatibus natus dignissimos aut tenetur rem voluptate ducimus quaerat et officia laudantium aliquam impedit quisquam optio. Voluptatum quaerat sint voluptatem tempora rem rerum, officia consequuntur illo fugiat animi perspiciatis exercitationem minus necessitatibus alias veniam? Culpa quo et asperiores repudiandae sapiente non labore saepe soluta nam. Provident corrupti culpa voluptate inventore quae architecto non sapiente facilis deserunt illo neque repellat natus, laborum aliquam voluptatem maiores ab dolorum beatae. Doloremque perspiciatis sapiente impedit exercitationem quidem. Facilis, expedita cupiditate excepturi voluptatem suscipit tempore commodi velit tempora iure minima doloremque placeat veritatis dolorem error.</p>
+
+	</div>
+   
+  </body>
+</html>
